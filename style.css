@@ -361,6 +361,7 @@ footer h6 {
     display: flex;
     margin: 20px;
     flex-shrink: 2;
+    
   }
   .medium-img-2 {
     height: 350px;
@@ -486,7 +487,10 @@ footer h6 {
   /* section 1  */
   .contaner-1 {
     background-color: rgb(252, 251, 250);
-    margin: 10px;
+    max-width:450px ;
+    margin: 0 auto;
+    margin: 10;
+ 
   }
 
   .img-2 {
@@ -495,6 +499,7 @@ footer h6 {
   }
   .img-2 img {
     width: 420px;
+    
   }
   .img-3 {
     display: flex;
@@ -511,6 +516,8 @@ footer h6 {
   .contaner-2 {
     background-color: #000000ae;
     margin: 10px;
+    max-width: 450px;
+    margin: 0 auto;
   }
   .con-div {
     display: flex;
@@ -538,6 +545,8 @@ footer h6 {
   /* section 4 start  */
   .contaner-4 {
     margin: 10px;
+    max-width: 450px;
+    margin: 0 auto;
   }
   .con-4-img-logo {
     display: none;
@@ -559,6 +568,8 @@ footer h6 {
   /* section 5 start  */
   .contaner-5 {
     margin: 10px;
+    max-width: 450px;
+    margin: 0 auto;
   }
   .text-div p {
     margin-bottom: 30px;
@@ -583,6 +594,8 @@ footer h6 {
   /* section 6 start */
   .contaner-6 {
     margin: 10px;
+    max-width: 450px;
+    margin: 0 auto;
   }
   .con-6-div {
     display: grid;
@@ -595,6 +608,8 @@ footer h6 {
   /* footer */
   footer {
     margin: 10px;
+    max-width: 450px;
+    margin: 0 auto;
   }
   .footer-div {
     display: flex;
@@ -609,3 +624,198 @@ footer h6 {
   }
 }
 /* media 450px end */
+/* media 350px start */
+
+@media (max-width: 450px) {
+  body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .link {
+    display: none;
+  }
+
+  /* heeo-section */
+
+  header {
+    margin: 10px;
+    max-width: 280px;
+    margin: 10px;
+
+  }
+
+  .hero-text {
+    text-align: left;
+    padding-left: 15px;
+    
+  }
+  .hero-text h1{
+    font-size:25px ;
+    width: 80%;
+   
+   
+  }
+
+  .hero-img {
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    gap: 5px;
+    box-sizing: border-box;
+  }
+  .hero-img img {
+    width: 65px;
+    height: 108px;
+    flex-shrink: 1;
+  }
+ 
+
+  /* section 1  */
+  .contaner-1 {
+    background-color: rgb(230, 190, 149);
+    max-width:280px ;
+    margin: 10px;
+   
+ 
+  }
+  .contaner-1 .text-div{
+    margin: 10px;
+  }
+
+  .img-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .img-2 img {
+    width:280px;
+ 
+    
+  }
+  .img-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .img-3 img {
+    width: 280px;
+
+    margin-bottom: 1rem;
+  }
+  /* section 1 end  */
+
+  /* section 2 start  */
+  .contaner-2 {
+    background-color: #141313ae;
+    margin: 10px;
+    max-width: 280px;
+  
+  }
+  .con-div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 10px;
+  }
+  .con-2-img {
+    display: flex;
+    margin: 10px;
+    padding-bottom: 20px;
+  }
+  .medium-img {
+    width: 125px;
+    
+  }
+  .medium-img-2 {
+    width: 110px;
+    height: 300px;
+  }
+  .small-img,
+  .big-img {
+    display: none;
+  }
+
+  /* section 4 start  */
+  .contaner-4 {
+    background-color: rgba(0, 255, 255, 0.38);
+    margin: 10px;
+    padding: 5px;
+    max-width: 280px;
+   
+  }
+  .con-4-img-logo {
+    display: none;
+  }
+  .con-4-text {
+    margin-bottom: 2rem;
+  }
+  .con-4-img {
+    display: grid;
+    grid-template-columns: repeat(1, 4fr);
+  }
+  .con-4-img img {
+    width: 272px;
+    height: 240px;
+
+    margin-bottom: 5px;
+  }
+
+  /* section 5 start  */
+  .contaner-5 {
+    background-color: rgb(215, 249, 180);
+    margin: 10px;
+    padding: 5px;
+    max-width: 280px;
+    
+  }
+  .text-div p {
+    margin-bottom: 30px;
+    width: 95%;
+  }
+
+  .con-5-img {
+    margin-top: 2rem;
+  }
+  .con-5-img .big-img-3 {
+    width: 120px;
+  }
+  .con-5-img .big-img-2 {
+    width: 130px;
+    height: 280px;
+  }
+
+  .social {
+    gap: 20px;
+    line-height: 40px;
+  }
+
+  /* section 6 start */
+  .contaner-6 {
+    margin: 10px;
+    max-width: 280px;
+    background-color: #d99655;
+    
+  }
+  .con-6-div {
+    display: grid;
+       
+         grid-template-columns: repeat(2, 2fr);
+  }
+  .con-6-div img {
+      padding: 5px;
+    width: 129px;
+    height: 150px;
+    
+  }
+  .footer-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-div p {
+    margin-bottom: -70px;
+  }
+  hr,
+  .under-line {
+    width: 100px;
+  }
+}
+/* media 350px end */
