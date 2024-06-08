@@ -626,7 +626,7 @@ footer h6 {
 /* media 450px end */
 /* media 350px start */
 
-@media (max-width: 450px) {
+@media (max-width: 350px) {
   body {
     padding: 0;
     margin: 0;
@@ -641,7 +641,7 @@ footer h6 {
 
   header {
     margin: 10px;
-    max-width: 280px;
+    max-width: 350px;
     margin: 10px;
 
   }
@@ -665,7 +665,7 @@ footer h6 {
     box-sizing: border-box;
   }
   .hero-img img {
-    width: 65px;
+    width: 77px;
     height: 108px;
     flex-shrink: 1;
   }
@@ -673,8 +673,8 @@ footer h6 {
 
   /* section 1  */
   .contaner-1 {
-    background-color: rgb(230, 190, 149);
-    max-width:280px ;
+    background-color: rgb(247, 245, 244);
+    max-width:350px ;
     margin: 10px;
    
  
@@ -686,9 +686,10 @@ footer h6 {
   .img-2 {
     display: flex;
     flex-direction: column;
+    
   }
   .img-2 img {
-    width:280px;
+    width:330px;
  
     
   }
@@ -697,7 +698,7 @@ footer h6 {
     flex-direction: column;
   }
   .img-3 img {
-    width: 280px;
+    width: 330px;
 
     margin-bottom: 1rem;
   }
@@ -707,7 +708,7 @@ footer h6 {
   .contaner-2 {
     background-color: #141313ae;
     margin: 10px;
-    max-width: 280px;
+    max-width: 350px;
   
   }
   .con-div {
@@ -736,10 +737,10 @@ footer h6 {
 
   /* section 4 start  */
   .contaner-4 {
-    background-color: rgba(0, 255, 255, 0.38);
+    /* background-color: rgba(27, 33, 33, 0.407);  */
     margin: 10px;
     padding: 5px;
-    max-width: 280px;
+    max-width: 350px;
    
   }
   .con-4-img-logo {
@@ -750,12 +751,12 @@ footer h6 {
   }
   .con-4-img {
     display: grid;
-    grid-template-columns: repeat(1, 4fr);
+    grid-template-columns: repeat(2, 4fr);
+  gap: 10px;
   }
   .con-4-img img {
-    width: 272px;
+    width: 155px;
     height: 240px;
-
     margin-bottom: 5px;
   }
 
@@ -764,7 +765,7 @@ footer h6 {
     background-color: rgb(215, 249, 180);
     margin: 10px;
     padding: 5px;
-    max-width: 280px;
+    max-width: 350px;
     
   }
   .text-div p {
@@ -776,22 +777,23 @@ footer h6 {
     margin-top: 2rem;
   }
   .con-5-img .big-img-3 {
-    width: 120px;
+    width: 130px;
   }
   .con-5-img .big-img-2 {
-    width: 130px;
+    width: 175px;
     height: 280px;
   }
 
   .social {
-    gap: 20px;
-    line-height: 40px;
+    gap: 0px;
+    line-height: 20px;
+    font-size: 10rem;
   }
 
   /* section 6 start */
   .contaner-6 {
     margin: 10px;
-    max-width: 280px;
+    max-width: 350px;
     background-color: #d99655;
     
   }
@@ -801,21 +803,33 @@ footer h6 {
          grid-template-columns: repeat(2, 2fr);
   }
   .con-6-div img {
-      padding: 5px;
-    width: 129px;
+      padding: px;
+    width: 155px;
     height: 150px;
     
+  }
+
+  footer{
+    max-width: 350px;
+    margin: 10px;
   }
   .footer-div {
     display: flex;
     flex-direction: column;
+   
   }
   .footer-div p {
-    margin-bottom: -70px;
+    font-size: 20px ;
+  }
+  .footer-text{
+    padding: 20px;
+  }
+  .footer-div h4{
+    font-size: 20px;
   }
   hr,
   .under-line {
-    width: 100px;
+    width: 80%;
   }
 }
 /* media 350px end */
