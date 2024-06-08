@@ -641,7 +641,7 @@ footer h6 {
 
   header {
     margin: 10px;
-    max-width: 350px;
+    max-width: 320px;
     margin: 10px;
 
   }
@@ -665,7 +665,7 @@ footer h6 {
     box-sizing: border-box;
   }
   .hero-img img {
-    width: 77px;
+    width: 68px;
     height: 108px;
     
   }
@@ -674,7 +674,7 @@ footer h6 {
   /* section 1  */
   .contaner-1 {
     background-color: rgb(247, 245, 244);
-    max-width:350px ;
+    max-width:320px ;
     margin: 10px;
    
  
@@ -689,7 +689,7 @@ footer h6 {
     
   }
   .img-2 img {
-    width:330px;
+    width:320px;
  
     
   }
@@ -698,7 +698,7 @@ footer h6 {
     flex-direction: column;
   }
   .img-3 img {
-    width: 330px;
+    width: 320px;
 
     margin-bottom: 1rem;
   }
@@ -708,7 +708,7 @@ footer h6 {
   .contaner-2 {
     background-color: #141313ae;
     margin: 10px;
-    max-width: 350px;
+    max-width: 320px;
   
   }
   .con-div {
@@ -723,7 +723,7 @@ footer h6 {
     padding-bottom: 20px;
   }
   .medium-img {
-    width: 125px;
+    width: 145px;
     
   }
   .medium-img-2 {
@@ -739,8 +739,8 @@ footer h6 {
   .contaner-4 {
     /* background-color: rgba(27, 33, 33, 0.407);  */
     margin: 10px;
-    padding: 5px;
-    max-width: 350px;
+  
+    max-width: 320px;
    
   }
   .con-4-img-logo {
@@ -755,7 +755,7 @@ footer h6 {
   gap: 10px;
   }
   .con-4-img img {
-    width: 155px;
+    width: 150px;
     height: 240px;
     margin-bottom: 5px;
   }
@@ -764,8 +764,8 @@ footer h6 {
   .contaner-5 {
     background-color: rgb(215, 249, 180);
     margin: 10px;
-    padding: 5px;
-    max-width: 350px;
+   
+    max-width: 320px;
     
   }
   .text-div p {
@@ -780,7 +780,7 @@ footer h6 {
     width: 130px;
   }
   .con-5-img .big-img-2 {
-    width: 175px;
+    width: 165px;
     height: 280px;
   }
 
@@ -793,7 +793,7 @@ footer h6 {
   /* section 6 start */
   .contaner-6 {
     margin: 10px;
-    max-width: 350px;
+    max-width: 320px;
     background-color: #d99655;
     
   }
@@ -804,13 +804,13 @@ footer h6 {
   }
   .con-6-div img {
       padding: px;
-    width: 155px;
+    width: 150px;
     height: 150px;
     
   }
 
   footer{
-    max-width: 350px;
+    max-width: 320px;
     margin: 10px;
   }
   .footer-div {
