@@ -689,7 +689,7 @@ footer h6 {
     
   }
   .img-2 img {
-    width:320px;
+    width:300px;
  
     
   }
@@ -698,7 +698,7 @@ footer h6 {
     flex-direction: column;
   }
   .img-3 img {
-    width: 320px;
+    width: 300px;
 
     margin-bottom: 1rem;
   }
@@ -723,7 +723,7 @@ footer h6 {
     padding-bottom: 20px;
   }
   .medium-img {
-    width: 145px;
+    width: 135px;
     
   }
   .medium-img-2 {
@@ -737,7 +737,7 @@ footer h6 {
 
   /* section 4 start  */
   .contaner-4 {
-    /* background-color: rgba(27, 33, 33, 0.407);  */
+     background-color: rgba(27, 33, 33, 0.407);  
     margin: 10px;
   
     max-width: 320px;
@@ -755,7 +755,7 @@ footer h6 {
   gap: 10px;
   }
   .con-4-img img {
-    width: 150px;
+    width: 145px;
     height: 240px;
     margin-bottom: 5px;
   }
@@ -777,11 +777,11 @@ footer h6 {
     margin-top: 2rem;
   }
   .con-5-img .big-img-3 {
-    width: 130px;
+    width: 120px;
   }
   .con-5-img .big-img-2 {
-    width: 165px;
-    height: 280px;
+    width: 155px;
+    height: 230px;
   }
 
   .social {
@@ -804,7 +804,7 @@ footer h6 {
   }
   .con-6-div img {
       padding: px;
-    width: 150px;
+    width: 140px;
     height: 150px;
     
   }
